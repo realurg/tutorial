@@ -2,7 +2,8 @@
   "name": "tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/DDnet.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "dev": "pnpm cleanup && pnpm build && node --enable-source-maps .",
@@ -12,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ddnet": "0.4.0-beta.6",
     "typescript": "^5.4.5"
   },
   "devDependencies": {

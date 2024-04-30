@@ -40,3 +40,12 @@
 // }
 
 // console.log(list);
+
+// function add(x: number, y: number): number {
+//   return x + y;
+// }
+
+// const add = (x: number, y: number): number => x + y;
+
+// const text = `Aoe's profile: ${Aoe.playerUrl}`; // "Aoe's profile: " + Aoe.playerUrl
+// console.log(text);
