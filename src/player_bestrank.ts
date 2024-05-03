@@ -1,5 +1,11 @@
-import { Player, Rank, findPlayer } from 'ddnet';
+import { Player, Servers } from 'ddnet';
 
-const urg = await Player.new('urg')
+const Cor = await Player.new('Cor');
 
-const ranks = await urg.
+const allMapStats = Cor.allMapStats.filter(val => val.finishCount);
+
+const ranks = allMapStats;
+
+// const ranks = [ranks_novice, ranks_moderate, ranks_brutal, ranks_insane, ranks_dummy, ranks_race, ranks_solo, ranks_oldschool, ranks_ddmaxEasy, ranks_ddmaxPro, ranks_ddmaxNext, ranks_ddmaxNut, ranks_fun];
+
+console.log(ranks);

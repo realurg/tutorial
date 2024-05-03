@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       ddnet:
-        specifier: 0.4.0-beta.6
-        version: 0.4.0-beta.6
+        specifier: 0.4.0
+        version: 0.4.0
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -34,8 +34,8 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  ddnet@0.4.0-beta.6:
-    resolution: {integrity: sha512-HQuHxQ9bHV0dyUyby8rXfkmHiGPqnLg9P6kDnU6/rNa/+e9AqTWPXBe5zxD2MS7gAoQ8EZn9RwgrgM34/bEmrA==}
+  ddnet@0.4.0:
+    resolution: {integrity: sha512-imrbQtZwSMkT/jgr4vx7FxnwytDgDULtJT5UHns5i91IBDzCPzULNEIJwg5Fi8W7sq9ZgBnWZagis/mnTKXEMA==}
     engines: {node: '>=18.20.2'}
 
   delayed-stream@1.0.0:
@@ -103,7 +103,7 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
-  ddnet@0.4.0-beta.6:
+  ddnet@0.4.0:
     dependencies:
       axios: 1.6.8
       keyv: 4.5.4

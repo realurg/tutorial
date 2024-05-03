@@ -1,6 +1,6 @@
-import { Author, Player } from 'ddnet';
+import { Mapper, Player } from 'ddnet';
 
-const Aoe = new Author({ name: 'Aoe' });
+const Aoe = new Mapper({ name: 'Aoe' });
 
 const maps = await Aoe.getMaps();
 
